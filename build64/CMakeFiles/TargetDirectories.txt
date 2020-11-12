@@ -1,0 +1,13 @@
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/test.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/custom_winafl_server.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/afl-showmap.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/test_servermode.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/test_netmode.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/afl-fuzz.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/test_gdiplus.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/afl-analyze.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/afl-tmin.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/custom_net_fuzzer.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/winafl.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/ALL_BUILD.dir
+C:/Users/zeus811/Documents/WinAfl/build64/CMakeFiles/ZERO_CHECK.dir

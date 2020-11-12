@@ -1,0 +1,20 @@
+﻿Build started 12-11-2020 02:50:05.
+     1>Project "C:\Users\zeus811\Documents\WinAfl\build64\winafl.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/zeus811/Documents/WinAfl/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\cmake\..\include" /I"C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\cmake\..\ext\include" /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D _WINDOWS /D NDEBUG /D X86_64 /D WINDOWS /D DR_LOG_DEFINE_COMPATIBILITY /D "CMAKE_INTDIR=\"Debug\"" /D winafl_EXPORTS /D _WINDLL /D _MBCS /Gm- /MT /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"winafl.dir\Debug\\" /Fd"winafl.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt C:\Users\zeus811\Documents\WinAfl\winafl.c C:\Users\zeus811\Documents\WinAfl\modules.c
+         winafl.c
+         modules.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zeus811\Documents\WinAfl\build64\bin\Debug\winafl.dll" /INCREMENTAL /NOLOGO libcmt.lib "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\ext\lib64\release\drx.lib" "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\ext\lib64\release\drcontainers.lib" "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\ext\lib64\release\drreg.lib" "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\ext\lib64\release\drwrap.lib" "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\lib64\ntdll_imports.lib" "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\ext\lib64\release\drmgr.lib" "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\ext\lib64\release\drcontainers.lib" "C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\lib64\release\dynamorio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zeus811/Documents/WinAfl/build64/bin/Debug/winafl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zeus811/Documents/WinAfl/build64/Debug/winafl.lib" /MACHINE:X64  /machine:x64 /opt:ref /opt:icf /pdbcompress /nodefaultlib /base:0x72000000 /dynamicbase:no /DLL winafl.dir\Debug\winafl.obj
+         winafl.dir\Debug\modules.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+            Creating library C:/Users/zeus811/Documents/WinAfl/build64/Debug/winafl.lib and object C:/Users/zeus811/Documents/WinAfl/build64/Debug/winafl.exp
+         winafl.vcxproj -> C:\Users\zeus811\Documents\WinAfl\build64\bin\Debug\winafl.dll
+     1>Done Building Project "C:\Users\zeus811\Documents\WinAfl\build64\winafl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86

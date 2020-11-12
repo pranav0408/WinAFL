@@ -1,0 +1,27 @@
+start_time        : 13249605574
+last_update       : 13249605575
+fuzzer_pid        : 8416
+cycles_done       : 0
+execs_done        : 40
+execs_per_sec     : 100.76
+paths_total       : 1
+paths_favored     : 1
+paths_found       : 0
+paths_imported    : 0
+max_depth         : 1
+cur_path          : 0
+pending_favs      : 1
+pending_total     : 1
+variable_paths    : 1
+stability         : 21.37%
+bitmap_cvg        : 0.38%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 0
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 40
+exec_timeout      : 200
+afl_banner        : test.exe
+afl_version       : 2.43b
+command_line      : afl-fuzz.exe -i customtest\Input\ -o customtest\Output -D C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\bin64 -t 200+ -- -coverage_module test.exe -target_module test.exe -fuzz_iterations 100 -target_offset 0x133e -covtype edge -nargs 2 -- test.exe @@

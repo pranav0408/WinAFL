@@ -1,0 +1,15 @@
+﻿Build started 12-11-2020 02:49:58.
+     1>Project "C:\Users\zeus811\Documents\WinAfl\build64\afl-analyze.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/zeus811/Documents/WinAfl/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\cmake\..\include" /I"C:\Users\zeus811\Documents\DynamoRIO-Windows-8.0.0-1\cmake\..\ext\include" /nologo /W1 /WX- /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"afl-analyze.dir\Debug\\" /Fd"afl-analyze.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "C:\Users\zeus811\Documents\WinAfl\afl-analyze.c"
+         afl-analyze.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zeus811\Documents\WinAfl\build64\bin\Debug\afl-analyze.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zeus811/Documents/WinAfl/build64/bin/Debug/afl-analyze.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zeus811/Documents/WinAfl/build64/Debug/afl-analyze.lib" /MACHINE:X64  /machine:x64 "afl-analyze.dir\Debug\afl-analyze.obj"
+         afl-analyze.vcxproj -> C:\Users\zeus811\Documents\WinAfl\build64\bin\Debug\afl-analyze.exe
+     1>Done Building Project "C:\Users\zeus811\Documents\WinAfl\build64\afl-analyze.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.29
